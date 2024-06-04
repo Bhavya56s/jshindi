@@ -1,12 +1,12 @@
-const details = {
-    username : "Bhavya",
-    age : 19,
-    welcome : function() {
-        console.log(`Welcome , ${this.username}`)
-        console.log(this)
-    }
+// const details = {
+//     username : "Bhavya",
+//     age : 19,
+//     welcome : function() {
+//         console.log(`Welcome , ${this.username}`)
+//         console.log(this)
+//     }
 
-}
+// }
 // details.welcome()
 // details.username = 'Sam'
 // details.welcome()
@@ -41,7 +41,11 @@ const details = {
 // console.log(add2(5,6))
 
 
-( (name) => {
-    console.log(`Bhavya, ${name}`);
+// ( (name) => {
+//     console.log(`Bhavya, ${name}`);
     
-} ) ('hitsh');
+// } ) ('hitsh');
+
+(function chai(){
+    console.log("Bhavya")
+})()
